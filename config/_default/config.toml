@@ -4,13 +4,41 @@ languageCode = "en-us"
 paginate = 5
 title = "Hugo Theme Stack Starter"
 
+# Change it to your Disqus shortname before using
+disqusShortname = "hugo-theme-stack"
+
+# mutilingual
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk, ar
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh-cn"
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
-hasCJKLanguage = false
+hasCJKLanguage = true
 
-# Change it to your Disqus shortname before using
-disqusShortname = "hugo-theme-stack"
+defaultContentLanguageInSubdir = true
+
+[languages]
+[languages.zh-cn]
+contentDir = 'content/zh'
+disabled = false
+languageCode = 'zh-cn'
+languageDirection = 'ltr'
+languageName = '简体中文'
+title = '我的博客'
+weight = 1
+[languages.zh-cn.params]
+[languages.zh-cn.params.sidebar]
+emoji = "🍥"
+subtitle = "欢迎光临"
+
+[languages.en]
+contentDir = 'content/en'
+disabled = false
+languageCode = 'en-US'
+languageDirection = 'ltr'
+languageName = 'English'
+title = 'my blog'
+weight = 2
+[languages.en.params]
+subtitle = 'sub title'

@@ -1,3 +1,11 @@
+.idea
+.DS_Store
+
 public
 resources
 .hugo_build.lock
+
+/themes/theme1/public
+/themes/theme1/resources
+/themes/theme1/assets/jsconfig.json
+/themes/theme1/.hugo_build.lock
