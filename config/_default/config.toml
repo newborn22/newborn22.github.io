@@ -25,11 +25,11 @@ disabled = false
 languageCode = 'zh-cn'
 languageDirection = 'ltr'
 languageName = '简体中文'
-title = '我的博客'
+title = 'newborn22'
 weight = 1
 [languages.zh-cn.params]
 [languages.zh-cn.params.sidebar]
-emoji = "🍥"
+emoji = "❤️"
 subtitle = "欢迎光临"
 
 [languages.en]
@@ -38,9 +38,9 @@ disabled = false
 languageCode = 'en-US'
 languageDirection = 'ltr'
 languageName = 'English'
-title = 'my blog'
+title = 'newborn22'
 weight = 2
 [languages.en.params]
 [languages.en.params.sidebar]
-emoji = "🍥"
+emoji = "☀️"
 subtitle = "hi there~"
