@@ -41,4 +41,6 @@ languageName = 'English'
 title = 'my blog'
 weight = 2
 [languages.en.params]
-subtitle = 'sub title'
+[languages.en.params.sidebar]
+emoji = "🍥"
+subtitle = "hi there~"
